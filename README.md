@@ -36,13 +36,13 @@ Ported from the Flutter package [`r2art_fraction_price_input`](https://pub.dev/p
 
 ## 📋 BEI / IDX 5-Tier Fraction Rules
 
-| Price Range | Tick Size (*Fraksi*) | Max Step |
-| :--- | :--- | :--- |
-| **< Rp 200** (Rp 1 – Rp 199) | **Rp 1** | Rp 10 (10 ticks) |
-| **Rp 200 – Rp 500** (Rp 200 – Rp 498) | **Rp 2** | Rp 20 (10 ticks) |
-| **Rp 500 – Rp 2.000** (Rp 500 – Rp 1.995) | **Rp 5** | Rp 50 (10 ticks) |
-| **Rp 2.000 – Rp 5.000** (Rp 2.000 – Rp 4.990) | **Rp 10** | Rp 100 (10 ticks) |
-| **≥ Rp 5.000** (≥ Rp 5.000) | **Rp 25** | Rp 250 (10 ticks) |
+| Price Range | Tick Size (*Fraksi*) |
+| :--- | :--- |
+| **< Rp 200** (Rp 1 – Rp 199) | **Rp 1** |
+| **Rp 200 – Rp 500** (Rp 200 – Rp 498) | **Rp 2** |
+| **Rp 500 – Rp 2.000** (Rp 500 – Rp 1.995) | **Rp 5** |
+| **Rp 2.000 – Rp 5.000** (Rp 2.000 – Rp 4.990) | **Rp 10** |
+| **≥ Rp 5.000** (≥ Rp 5.000) | **Rp 25** |
 
 ---
 
