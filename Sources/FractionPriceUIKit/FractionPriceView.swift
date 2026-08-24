@@ -1,6 +1,8 @@
 #if canImport(UIKit)
 import UIKit
+#if canImport(FractionPriceCore)
 import FractionPriceCore
+#endif
 
 /// Traditional UIKit UIView / UIControl component for fractional stock tick price input.
 @IBDesignable
@@ -31,10 +33,10 @@ public class FractionPriceView: UIView, UITextFieldDelegate {
     public var onSubmitted: ((Double?) -> Void)?
     public var onValidationChanged: ((PriceValidationResult) -> Void)?
     
-    public var emptyPriceError: (() -> String)?
-    public var belowMinError: ((String) -> String)?
-    public var aboveMaxError: ((String) -> String)?
-    public var invalidTickError: ((String, String) -> String)?
+    public var emptyPriceError: (@Sendable () -> String)?
+    public var belowMinError: (@Sendable (_ minFormatted: String) -> String)?
+    public var aboveMaxError: (@Sendable (_ maxFormatted: String) -> String)?
+    public var invalidTickError: (@Sendable (_ step: String, _ nearestFormatted: String) -> String)?
     
     @IBInspectable public var labelText: String? {
         didSet {
@@ -343,7 +345,7 @@ public class FractionPriceView: UIView, UITextFieldDelegate {
     
     public func revalidate() {
         self.currentValidationResult = rule.validatePrice(price, localization: effectiveLocalization)
-        updateBorderAndFooter()\
+        updateBorderAndFooter()
         onValidationChanged?(currentValidationResult)
         delegate?.fractionPriceView(self, didValidate: currentValidationResult)
     }
