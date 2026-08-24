@@ -1,5 +1,7 @@
 import SwiftUI
+#if canImport(FractionPriceCore)
 import FractionPriceCore
+#endif
 
 /// Primary declarative input field for fractional stock tick prices in SwiftUI.
 @MainActor

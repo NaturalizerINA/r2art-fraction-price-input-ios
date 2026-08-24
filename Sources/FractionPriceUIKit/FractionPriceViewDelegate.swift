@@ -1,6 +1,8 @@
 #if canImport(UIKit)
 import UIKit
+#if canImport(FractionPriceCore)
 import FractionPriceCore
+#endif
 
 /// Delegate protocol for `FractionPriceView` events.
 public protocol FractionPriceViewDelegate: AnyObject {
