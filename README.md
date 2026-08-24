@@ -16,7 +16,7 @@ Ported from the Flutter package [`r2art_fraction_price_input`](https://pub.dev/p
 
 | SwiftUI (Light Mode) | SwiftUI (Dark Mode) | UIKit (Light Mode) | UIKit (Dark Mode) |
 | :---: | :---: | :---: | :---: |
-| <img src="assets/screenshots/swiftui_preview_light.png" width="220" /> | <img src="assets/screenshots/swiftui_preview_dark.png" width="220" /> | <img src="assets/screenshots/uikit_preview_light.png" width="220" /> | <img src="assets/screenshots/uikit_preview_dark.png" width="220" /> |
+| <img src="assets/screenshots/swiftui_preview_light.png" width="220" alt="SwiftUI (Light Mode)" /> | <img src="assets/screenshots/swiftui_preview_dark.png" width="220" alt="SwiftUI (Dark Mode)" /> | <img src="assets/screenshots/uikit_preview_light.png" width="220" alt="UIKit (Light Mode)" /> | <img src="assets/screenshots/uikit_preview_dark.png" width="220" alt="UIKit (Dark Mode)" /> |
 
 ---
 
