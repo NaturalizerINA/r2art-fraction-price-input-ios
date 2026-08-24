@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6716C097579FF9A2865CD6F2 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BDFCD7DA1752A7D63D2C /* AppLanguage.swift */; };
+		06D5D1A495EDAB56659E174A /* ColorHexExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB7B4356E7D97D5CC18082 /* ColorHexExtension.swift */; };
+		4CA0136B1F200D69389B5D20 /* CollapsibleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4690E9C13984409F82672 /* CollapsibleSection.swift */; };
+		910867136FFBE267C2C64E8A /* ColorPickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B61580489BC5FA5139777 /* ColorPickerRow.swift */; };
+		DA689E1F7F1C11F99E38A8FC /* StateInspectorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E62F7BC9889A656F97402D /* StateInspectorCard.swift */; };
+		787CBE17184C46176EEC9FFE /* SwiftUIShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F86991A8049BF4C00926389 /* SwiftUIShowcaseView.swift */; };
+		4EC6212D1CA9323898123904 /* UIKitShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1AEA4FA9CB1A3E7641D864 /* UIKitShowcaseView.swift */; };
+		531E68316ACA3F681E85DE21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C87BBBC4D8DABD317DBF /* ContentView.swift */; };
+		E8E83607BF4072D3AF04D8B9 /* FractionPriceSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D29F3CEDF3AE3052155E65 /* FractionPriceSampleApp.swift */; };
+		ECD3373ECE3C96382A69FB26 /* FractionPriceCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3E5BF4C1A37E1420FF4816E8 /* FractionPriceCore */; };
+		01CFF816DCC5D5DA7C74BFF9 /* FractionPriceSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 23BDC17D1EC4BFAFD03AA5D4 /* FractionPriceSwiftUI */; };
+		68B53EEC60A7F25D07B55361 /* FractionPriceUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 070586B097A12BD91C9D1D90 /* FractionPriceUIKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E46BDFCD7DA1752A7D63D2C /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Common/AppLanguage.swift"; sourceTree = "<group>"; };
+		DEDB7B4356E7D97D5CC18082 /* ColorHexExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Common/ColorHexExtension.swift"; sourceTree = "<group>"; };
+		D2C4690E9C13984409F82672 /* CollapsibleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Components/CollapsibleSection.swift"; sourceTree = "<group>"; };
+		6B9B61580489BC5FA5139777 /* ColorPickerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Components/ColorPickerRow.swift"; sourceTree = "<group>"; };
+		01E62F7BC9889A656F97402D /* StateInspectorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Components/StateInspectorCard.swift"; sourceTree = "<group>"; };
+		4F86991A8049BF4C00926389 /* SwiftUIShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Screens/SwiftUIShowcaseView.swift"; sourceTree = "<group>"; };
+		7C1AEA4FA9CB1A3E7641D864 /* UIKitShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Screens/UIKitShowcaseView.swift"; sourceTree = "<group>"; };
+		1B83C87BBBC4D8DABD317DBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/ContentView.swift"; sourceTree = "<group>"; };
+		18D29F3CEDF3AE3052155E65 /* FractionPriceSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/FractionPriceSampleApp.swift"; sourceTree = "<group>"; };
+		441F3A98CAB4F4592F8FF78B /* FractionPriceSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractionPriceSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		766EABB7A3DDDF0C5BE37856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3373ECE3C96382A69FB26 /* FractionPriceCore in Frameworks */,
+				01CFF816DCC5D5DA7C74BFF9 /* FractionPriceSwiftUI in Frameworks */,
+				68B53EEC60A7F25D07B55361 /* FractionPriceUIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A85897F1A32FE9B91C081CD = {
+			isa = PBXGroup;
+			children = (
+				6E46BDFCD7DA1752A7D63D2C /* AppLanguage.swift */,
+				DEDB7B4356E7D97D5CC18082 /* ColorHexExtension.swift */,
+				D2C4690E9C13984409F82672 /* CollapsibleSection.swift */,
+				6B9B61580489BC5FA5139777 /* ColorPickerRow.swift */,
+				01E62F7BC9889A656F97402D /* StateInspectorCard.swift */,
+				4F86991A8049BF4C00926389 /* SwiftUIShowcaseView.swift */,
+				7C1AEA4FA9CB1A3E7641D864 /* UIKitShowcaseView.swift */,
+				1B83C87BBBC4D8DABD317DBF /* ContentView.swift */,
+				18D29F3CEDF3AE3052155E65 /* FractionPriceSampleApp.swift */,
+				B88D7E26791946AEFDCC8BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B88D7E26791946AEFDCC8BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				441F3A98CAB4F4592F8FF78B /* FractionPriceSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B1F8CD01812BA0F0CBDC39E /* FractionPriceSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC218CD826613AD2E353F27 /* Build configuration list for PBXNativeTarget "FractionPriceSample" */;
+			buildPhases = (
+				0E1EEB3C39FA70BFD3E6FEB0 /* Sources */,
+				766EABB7A3DDDF0C5BE37856 /* Frameworks */,
+				781B1EA3DCD06C2932EFB49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FractionPriceSample;
+			packageProductDependencies = (
+				3E5BF4C1A37E1420FF4816E8 /* FractionPriceCore */,
+				23BDC17D1EC4BFAFD03AA5D4 /* FractionPriceSwiftUI */,
+				070586B097A12BD91C9D1D90 /* FractionPriceUIKit */,
+			);
+			productName = FractionPriceSample;
+			productReference = 441F3A98CAB4F4592F8FF78B /* FractionPriceSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E279703A11060C23CDB7D1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6B1F8CD01812BA0F0CBDC39E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C1B0D475F7746409ADBE8D6F /* Build configuration list for PBXProject "FractionPriceSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A85897F1A32FE9B91C081CD;
+			packageReferences = (
+				6886368DFE17F4D92C10A694 /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = B88D7E26791946AEFDCC8BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1F8CD01812BA0F0CBDC39E /* FractionPriceSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781B1EA3DCD06C2932EFB49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1EEB3C39FA70BFD3E6FEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6716C097579FF9A2865CD6F2 /* AppLanguage.swift in Sources */,
+				06D5D1A495EDAB56659E174A /* ColorHexExtension.swift in Sources */,
+				4CA0136B1F200D69389B5D20 /* CollapsibleSection.swift in Sources */,
+				910867136FFBE267C2C64E8A /* ColorPickerRow.swift in Sources */,
+				DA689E1F7F1C11F99E38A8FC /* StateInspectorCard.swift in Sources */,
+				787CBE17184C46176EEC9FFE /* SwiftUIShowcaseView.swift in Sources */,
+				4EC6212D1CA9323898123904 /* UIKitShowcaseView.swift in Sources */,
+				531E68316ACA3F681E85DE21 /* ContentView.swift in Sources */,
+				E8E83607BF4072D3AF04D8B9 /* FractionPriceSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CB260ECA72772F3539ACAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		097570E30ADDA6899200AEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17ADAAC05E3809596D8A42CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fraction Price";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r2art.FractionPriceSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB21F76A08841FC296CFDFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fraction Price";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r2art.FractionPriceSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B0D475F7746409ADBE8D6F /* Build configuration list for PBXProject "FractionPriceSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB260ECA72772F3539ACAE9 /* Debug */,
+				097570E30ADDA6899200AEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC218CD826613AD2E353F27 /* Build configuration list for PBXNativeTarget "FractionPriceSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17ADAAC05E3809596D8A42CE /* Debug */,
+				DB21F76A08841FC296CFDFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		6886368DFE17F4D92C10A694 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "..";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E5BF4C1A37E1420FF4816E8 /* FractionPriceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6886368DFE17F4D92C10A694 /* XCLocalSwiftPackageReference ".." */;
+			productName = FractionPriceCore;
+		};
+		23BDC17D1EC4BFAFD03AA5D4 /* FractionPriceSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6886368DFE17F4D92C10A694 /* XCLocalSwiftPackageReference ".." */;
+			productName = FractionPriceSwiftUI;
+		};
+		070586B097A12BD91C9D1D90 /* FractionPriceUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6886368DFE17F4D92C10A694 /* XCLocalSwiftPackageReference ".." */;
+			productName = FractionPriceUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = 3E279703A11060C23CDB7D1C /* Project object */;
+}

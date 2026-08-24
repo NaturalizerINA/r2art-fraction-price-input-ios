@@ -1,0 +1,62 @@
+# Xcode
+#
+# gitignore template for Apple iOS/macOS projects
+#
+.DS_Store
+*/.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode User Data and Build Products
+#
+build/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.xcuserdata
+project.xcworkspace/xcuserdata/
+project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+#
+.build/
+.swiftpm/
+Packages/
+Package.pins
+
+# CocoaPods
+#
+Pods/
+
+# Carthage
+#
+Carthage/Build/
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Editor and IDE Files
+#
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# Documentation / Internal Specifications
+#
+PRD.md
+PRD_*.md
