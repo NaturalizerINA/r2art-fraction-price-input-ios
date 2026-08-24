@@ -4,6 +4,7 @@
 [![iOS 15.0+](https://img.shields.io/badge/iOS-15.0+-blue.svg?style=flat-square)](https://apple.com)
 [![SwiftUI & UIKit](https://img.shields.io/badge/UI-SwiftUI%20%7C%20UIKit-purple.svg?style=flat-square)](https://developer.apple.com)
 [![SPM & CocoaPods](https://img.shields.io/badge/Package-SPM%20%7C%20CocoaPods-red.svg?style=flat-square)](https://cocoapods.org)
+[![Swift Package Index](https://img.shields.io/badge/Swift%20Package%20Index-compatible-blue.svg?style=flat-square)](https://swiftpackageindex.com/NaturalizerINA/r2art-fraction-price-input-ios)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](#-license)
 
 An industry-grade stock fraction tick price input component for **iOS Native (Swift)** supporting both **SwiftUI** and **UIKit**, fully compliant with **Indonesia Stock Exchange (Bursa Efek Indonesia / BEI / IDX)** regulations.
